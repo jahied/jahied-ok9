@@ -131,17 +131,7 @@ basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace(
 
 
 
-			else:
-				key = ("\033[0;97m -")
-				stat = ("\033[0;97mPAID USER")
-				FY = '\033[0;90m'
-				FG = '\033[0;90m'
-				GET = '\033[0;97m [P] GET PREMIUM'
-		except requests.exceptions.ConnectionError:
-			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
-			exit()
-		os.system("clear")
-		#yahan logo lagana apna
+			
 		print ("""
                                                                                   
                                                                             
