@@ -29,79 +29,8 @@ import base64
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
-def logo():
-	print ("""
-                                                                                 
+
                                                                             
-BBBBBBBBBBBBBBBBB        HHHHHHHHH     HHHHHHHHH     TTTTTTTTTTTTTTTTTTTTTTT
-B::::::::::::::::B       H:::::::H     H:::::::H     T:::::::::::::::::::::T
-B::::::BBBBBB:::::B      H:::::::H     H:::::::H     T:::::::::::::::::::::T
-BB:::::B     B:::::B     HH::::::H     H::::::HH     T:::::TT:::::::TT:::::T
-  B::::B     B:::::B       H:::::H     H:::::H       TTTTTT  T:::::T  TTTTTT
-  B::::B     B:::::B       H:::::H     H:::::H               T:::::T        
-  B::::BBBBBB:::::B        H::::::HHHHH::::::H               T:::::T        
-  B:::::::::::::BB         H:::::::::::::::::H               T:::::T        
-  B::::BBBBBB:::::B        H:::::::::::::::::H               T:::::T        
-  B::::B     B:::::B       H::::::HHHHH::::::H               T:::::T        
-  B::::B     B:::::B       H:::::H     H:::::H               T:::::T        
-  B::::B     B:::::B       H:::::H     H:::::H               T:::::T        
-BB:::::BBBBBB::::::B     HH::::::H     H::::::HH           TT:::::::TT      
-B:::::::::::::::::B      H:::::::H     H:::::::H           T:::::::::T      
-B::::::::::::::::B       H:::::::H     H:::::::H           T:::::::::T      
-BBBBBBBBBBBBBBBBB        HHHHHHHHH     HHHHHHHHH           TTTTTTTTTTT      
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                            
-                                                                             
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
- ───────────────────────────────────────────────────────×
-  ───────────────────────────────────────────────────────×
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m BD-JAHIED\x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :3.1\x1b[0m\x1b[1;97m] \033[1;37m 
- ───────────────────────────────────────────────────────×
- """)
-def logo2():
-	#Yahan apna logo paste krna hw
-	print ("""
-                                                                              
-                                                                            
-BBBBBBBBBBBBBBBBB        HHHHHHHHH     HHHHHHHHH     TTTTTTTTTTTTTTTTTTTTTTT
-B::::::::::::::::B       H:::::::H     H:::::::H     T:::::::::::::::::::::T
-B::::::BBBBBB:::::B      H:::::::H     H:::::::H     T:::::::::::::::::::::T
-BB:::::B     B:::::B     HH::::::H     H::::::HH     T:::::TT:::::::TT:::::T
-  B::::B     B:::::B       H:::::H     H:::::H       TTTTTT  T:::::T  TTTTTT
-  B::::B     B:::::B       H:::::H     H:::::H               T:::::T        
-  B::::BBBBBB:::::B        H::::::HHHHH::::::H               T:::::T        
-  B:::::::::::::BB         H:::::::::::::::::H               T:::::T        
-  B::::BBBBBB:::::B        H:::::::::::::::::H               T:::::T        
-  B::::B     B:::::B       H::::::HHHHH::::::H               T:::::T        
-  B::::B     B:::::B       H:::::H     H:::::H               T:::::T        
-  B::::B     B:::::B       H:::::H     H:::::H               T:::::T        
-BB:::::BBBBBB::::::B     HH::::::H     H::::::HH           TT:::::::TT      
-B:::::::::::::::::B      H:::::::H     H:::::::H           T:::::::::T      
-B::::::::::::::::B       H:::::::H     H:::::::H           T:::::::::T      
-BBBBBBBBBBBBBBBBB        HHHHHHHHH     HHHHHHHHH           TTTTTTTTTTT      
-                                                                      
-                                 
- ───────────────────────────────────────────────────────×
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m BD-JAHIED \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Version :3.1\x1b[0m\x1b[1;97m] \033[1;37m 
- ───────────────────────────────────────────────────────×
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : BD-JAHIED \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/jahied \x1b[0m\x1b[1;97m]
-\t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : www.facebook./ROOT.OFF.JAHIED \x1b[0m\x1b[1;97m]
-───────────────────────────────────────────────────────× 
  """)
 
 def runtxt(z):
